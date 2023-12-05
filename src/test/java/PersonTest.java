@@ -19,8 +19,8 @@ public class PersonTest {
 @Test
 void shouldCalculateBonus()
         {
-        Person tomHanks = new Person("Tom", "Hanks");
-        int actual = tomHanks.giveBonus(2,4);
+        Person tomcruise = new Person("Tom", "Hanks");
+        int actual = tomcruise.giveBonus(2,4);
         int expected = 10;
         assertThat(actual).as("Wynagrodzenie policzone nieparidłowo").isGreaterThan(11);
         }
